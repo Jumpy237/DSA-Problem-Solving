@@ -1,0 +1,28 @@
+# 🔹 Ignore build & compiled files
+bin/
+obj/
+
+# 🔹 Ignore Visual Studio & VS Code settings
+.vs/
+.vscode/
+*.suo
+*.user
+*.csproj.user
+
+# 🔹 Ignore dependency management files
+packages/
+.nuget/
+
+# 🔹 Ignore debugging & runtime logs
+*.log
+*.lock
+
+# 🔹 Ignore temporary project files
+*.tmp
+*.cache
+*.pid
+
+# 🔹 Ignore Windows & macOS system-generated files
+$RECYCLE.BIN/
+Thumbs.db
+.DS_Store
